@@ -1,3 +1,21 @@
+This project is a Recommender System for drug prescriptions based on a real world dataset (MIMIC-III Database). It includes 6 different models that we analyze and compare with certain evaluation metrics.
+
+# Algorithms
+
+ - SVD (Singular Value Decomposition)
+ - Item-KNN (Item K-Nearest Neighbour)
+ - User-KNN (User K-Nearest Neighbour)
+ - NMF (Non-negative Matrix Factorization)
+ - MLP (Multi-layer Perceptron neural network)
+ - GMF (Generalized Matrix Factorization)
+
+# Evaluation Metrics
+
+- Recall
+- Precision
+- NDCG
+- Toxicity score of the drugs
+
 # Prerequisites
 
 In order to be able to execute algorithms with neural networks, we installed the package Tensorflow 1.15 and tensorflow-estimator 1.15. In more detail, we installed anaconda which provides many ready-made packages and created a virtual environment as follows:
