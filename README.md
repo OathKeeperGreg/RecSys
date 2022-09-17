@@ -16,6 +16,12 @@ This project is a Recommender System for drug prescriptions based on a real worl
 - NDCG
 - Toxicity score of the drugs
 
+
+#Post Hoc Re-Ranking
+
+After evaluating all the models above, for the best performing algorithm (SVD) we apply the Post Hoc Re-Ranking to evaluate the results we get once again and compare the two. We find that this method produces safer results for actual use, as can be seen from the Toy Example towards the end of the code.
+
+
 # Prerequisites
 
 In order to be able to execute algorithms with neural networks, we installed the package Tensorflow 1.15 and tensorflow-estimator 1.15. In more detail, we installed anaconda which provides many ready-made packages and created a virtual environment as follows:
