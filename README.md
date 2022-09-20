@@ -17,7 +17,7 @@ This project is a Recommender System for drug prescriptions based on a real worl
 - Toxicity score of the drugs
 
 
-#Post Hoc Re-Ranking
+# Post Hoc Re-Ranking
 
 After evaluating all the models above, for the best performing algorithm (SVD) we apply the Post Hoc Re-Ranking to evaluate the results we get once again and compare the two. We find that this method produces safer results for actual use, as can be seen from the Toy Example towards the end of the code.
 
@@ -37,3 +37,8 @@ In order to be able to execute algorithms with neural networks, we installed the
 When the environment is set, we open Jupyter Notebook from the Anaconda Navigator menu and open the project. Before running it, we need to change the 10th line of code "folder = 'C:\\Users\\Greg\\Python\\RecSys'" to the path that we have the project (and txt.files) in.
 
 The .txt files are necessary to run the code as they contain the data from MIMIC-III database for relationships between drugs-patients and drug-drug interactions.
+
+
+# Instructions
+
+-Download and install Anaconda from [GitHub pages](https://www.anaconda.com/products/distribution)
