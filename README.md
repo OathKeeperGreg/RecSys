@@ -41,4 +41,9 @@ The .txt files are necessary to run the code as they contain the data from MIMIC
 
 # Instructions
 
--Download and install Anaconda from [GitHub pages](https://www.anaconda.com/products/distribution)
+-Download and install Anaconda from [Anaconda website](https://www.anaconda.com/products/distribution).
+-Open Anaconda Navigator and launch CMD.exe prompt.
+-Then install the prerequisites mentioned above to create the virtual environment that is required.
+-On the top left drop down menu "Applications on" select py37.
+-Launch Jypyter Notebook and navigate to the project folder.
+-Open the notebook and on the Jupyter menu select Cell -> Run all.
